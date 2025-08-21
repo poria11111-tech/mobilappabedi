@@ -1,59 +1,67 @@
 {
-  "dir": "rtl",
-  "lang": "fa-IR",
   "name": "مدیریت باشگاه والیبال",
-  "short_name": "باشگاه والیبال",
-  "description": "اپ مدیریت باشگاه والیبال با کارکرد آفلاین",
-  "start_url": "/index.html",
-  "scope": "/",
+  "short_name": "والیبال اپ",
+  "description": "اپلیکیشن مدیریت باشگاه والیبال با قابلیت‌های کامل",
+  "id": "/?homescreen=1",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0ea5e9",
-  "orientation": "portrait-primary",
+  "orientation": "portrait",
+  "lang": "fa",
+  "dir": "rtl",
   "icons": [
     {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-384.png",
-      "sizes": "384x384",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-maskable-192.png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
     },
     {
-      "src": "icon-maskable-256.png",
+      "src": "/icon-256.png",
       "sizes": "256x256",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
     },
     {
-      "src": "icon-maskable-384.png",
+      "src": "/icon-384.png",
       "sizes": "384x384",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
     },
     {
-      "src": "icon-maskable-512.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
-  ]
+  ],
+  "categories": ["sports", "productivity"],
+  "scope": "/",
+  "prefer_related_applications": false,
+  "related_applications": []
 }
